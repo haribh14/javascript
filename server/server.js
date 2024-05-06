@@ -6,7 +6,6 @@ import { connectDB } from "./config/db.js";
 
 const app = express();
 
-
 //databse
 connectDB();
 
@@ -18,3 +17,4 @@ const port = process.env.PORT;
 app.listen(port, () => {
   console.log(`Server started at ${port}`);
 });
+console.log("hello");
