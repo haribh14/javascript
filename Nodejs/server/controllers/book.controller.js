@@ -25,4 +25,3 @@ export const createBook = async (req, res) => {
     throw new CustomError("Internal Server Error !", 500);
   }
 };
-
